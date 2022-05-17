@@ -1,0 +1,204 @@
+// LISTAS
+$lista1: uppercase, #fff, #ffd700;
+// Este valor se va a estar aplicando al color del encabezado de "nombre" en la sección de clientes (línea 170)
+$author: nth($lista1, 2);
+// Este valor se va a estar aplicando para poner el encabezado de "quien soy" todo en mayúsculas (línea 80)
+$quien-soy: nth($lista1, 1);
+// Este valor se va a estar aplicando al color de las estrellas en la parte de clientes (linea 131)
+$estrellas: nth($lista1, 3);
+// ------------------------------------------------------------------------------------
+// INDEX
+// Main
+main {
+  width: $width;
+  height: auto;
+}
+// Jumbotron
+#jumbotron {
+  & .jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h1.encabezado {
+      text-align: center;
+      @include jumbo-h1(1rem, 1rem, 6px 5px 7px $bg-color1);
+    }
+  }
+  & .jumbo-color {
+    background-color: $bg-color2;
+  }
+}
+form {
+  & .btn {
+    border: 1px solid $color3;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: $bg-color1;
+    background-color: $bg-color1;
+    color: $color3;
+  }
+  & .btn:hover {
+    background-color: rgb(58, 225, 217);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
+}
+// Quién soy
+#me {
+  height: 50rem;
+  width: $width;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h2 {
+    text-transform: $quien-soy;
+  }
+}
+.me-left {
+  width: 50%;
+  height: 80%;
+}
+
+.me-right {
+  width: 50%;
+  height: auto;
+}
+// Testimonios
+#testimonials {
+  background-color: $bg-color4;
+  height: auto;
+  width: $width;
+  & h3 {
+    @include sombras(6px 5px 7px $bg-color1);
+  }
+}
+.testimonial {
+  position: relative;
+  overflow: hidden;
+  min-width: 220px;
+  max-width: 310px;
+  color: $color2;
+  text-align: left;
+  box-shadow: none;
+}
+.testimonial * {
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+.testimonial {
+  & img {
+    vertical-align: middle;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 40px 0 0 10px;
+  }
+  & blockquote {
+    border-radius: 8px;
+    position: relative;
+    background-color: $bg-color3;
+    padding: 25px 50px 30px 50px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.6em;
+    font-style: italic;
+  }
+  & i {
+    color: $estrellas;
+  }
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+.testimonial blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+.testimonial blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+.testimonial {
+  & .arrow {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #fafafa;
+    position: absolute;
+  }
+}
+.testimonial {
+  & .author {
+    position: absolute;
+    bottom: 45px;
+    padding: 0 10px 0 120px;
+    margin: 0;
+    text-transform: uppercase;
+    color: $author;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+}
+.author {
+  & h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+    & span {
+      font-weight: 400;
+      text-transform: none;
+      padding-left: 5px;
+    }
+  }
+}
+// Características
+.list-group {
+  & .list-group-item-color {
+    background-color: $bg-color3;
+  }
+}
+.list-group-item {
+  padding: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5em;
+  width: $width;
+  border-bottom: 1px solid $color1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2rem;
+  & i {
+    color: green;
+    font-size: 1.5em;
+    padding: 0.5rem;
+  }
+}

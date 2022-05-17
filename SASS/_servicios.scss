@@ -1,0 +1,56 @@
+// SERVICIOS
+// MAIN
+// Servicios
+#services {
+  background-color: $bg-color4;
+  & h1 {
+    color: $bg-color3;
+    @include sombras(6px 5px 7px $bg-color1);
+  }
+  & .card {
+    padding: 1rem;
+    margin: 2rem auto;
+
+    & h5 {
+      color: $color3;
+      text-align: center;
+    }
+    & p {
+      color: $color3;
+      text-align: center;
+      line-height: 2rem;
+    }
+    & .card-link {
+      text-align: center;
+      & a {
+        @include services-link($bg-color1, 1rem, 1px solid $color3, $font-w);
+        padding: 15px 50px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+        -moz-transition: 0.1s;
+        -ms-transition: 0.1s;
+        -o-transition: 0.1s;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      }
+      & a:hover {
+        color: $color3;
+        background-color: rgb(68, 230, 222);
+        transform: translateX(5px) translateY(5px);
+        -webkit-transform: translateX(5px) translateY(5px);
+        -moz-transform: translateX(5px) translateY(5px);
+        -ms-transform: translateX(5px) translateY(5px);
+        -o-transform: translateX(5px) translateY(5px);
+        border: none;
+      }
+    }
+  }
+}
+.card-color {
+  background-color: $bg-color2;
+}

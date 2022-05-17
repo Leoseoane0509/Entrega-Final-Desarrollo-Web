@@ -1,0 +1,28 @@
+// Footer
+footer {
+  background-color: lightseagreen;
+  width: $width;
+  height: 7rem;
+  & .container-fluid {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+
+    & p {
+      text-align: center;
+      color: $color3;
+      font-weight: $font-w;
+      padding: 0.7rem;
+      font-size: 1.2em;
+      margin-bottom: 0;
+    }
+  }
+  & .footer__redes {
+    text-align: center;
+    & a {
+      @include footer-redes-a(1.2rem, 1.5em, $color3);
+    }
+  }
+}

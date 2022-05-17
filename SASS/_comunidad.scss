@@ -1,0 +1,66 @@
+// EXTEND
+%encabezadoYparrafo {
+  text-align: $text-align;
+  color: $color3;
+  padding: 1rem;
+  box-shadow: 12px 12px 2px 1px $color4;
+}
+// ---------------------------------------------------
+// COMUNIDAD
+// MAIN
+// Jumbotron
+.jum-color {
+  background-color: $bg-color2;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h1 {
+    text-align: center;
+    @include sombras(6px 5px 1px $bg-color1);
+  }
+  & p {
+    text-align: center;
+  }
+}
+// Preguntas frecuentes
+#questions {
+  & .container {
+    & h2 {
+      background-color: $bg-color1;
+      margin: 1.5rem;
+      color: $color3;
+      box-shadow: 12px 12px 2px 1px $color4;
+    }
+  }
+}
+.accordion {
+  & .item1 {
+    border-top: 1px solid $color1;
+  }
+  & .accordion-item {
+    border-bottom: 1px solid $color1;
+    box-shadow: none;
+  }
+  & .accordion-button:not(.collapsed) {
+    color: $color3;
+    background-color: $bg-color1;
+  }
+  & .item5 {
+    margin-bottom: 1rem;
+  }
+}
+// Recursos útiles
+#resources {
+  & .encabezado3 {
+    background-color: $bg-color1;
+    @extend %encabezadoYparrafo;
+    margin: 2rem;
+  }
+  & p {
+    @extend %encabezadoYparrafo;
+    background-color: $bg-color4;
+    line-height: 2rem;
+  }
+}

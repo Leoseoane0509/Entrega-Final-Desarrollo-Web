@@ -1,0 +1,5 @@
+@each $redes in facebook, instagram, linkedin {
+  li.#{$redes} {
+    background-image: url("../media/#{$redes}.jpg");
+  }
+}

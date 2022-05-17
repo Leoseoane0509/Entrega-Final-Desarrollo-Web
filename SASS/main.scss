@@ -1,0 +1,78 @@
+// VARIABLES
+// Import de las variables
+@import "_variables";
+// -------------------------------------------------------
+// MIXINS
+// Mixin para el navbar
+@mixin navBar-style($bgColor, $w) {
+  background-color: $bgColor;
+  width: $w;
+}
+// Mixin para el h1 del jumbotron del index
+@mixin jumbo-h1($padding, $margin, $t-shadow) {
+  padding: $padding;
+  margin: $margin;
+  text-shadow: $t-shadow;
+}
+// Mixin para los enlaces de las redes sociales en el footer
+@mixin footer-redes-a($pad, $font-s, $color) {
+  padding: $pad;
+  font-size: $font-s;
+  color: $color;
+}
+// Mixin para el enlace de "reservar turno" en las cards de servicios
+@mixin services-link($bg-color, $border-r, $border, $f-weight) {
+  background-color: $bg-color;
+  border-radius: $border-r;
+  -webkit-border-radius: $border-r;
+  -moz-border-radius: $border-r;
+  -ms-border-radius: $border-r;
+  -o-border-radius: $border-r;
+  border: $border;
+  font-weight: $f-weight;
+}
+// Mixin con valores de altura y ancho genéricos para ser reutilizados
+@mixin sizes($h, $w) {
+  height: $h;
+  width: $w;
+}
+// Mixin para ciertas sombras (jumbotron index + jumbotron acerca de + skills acerca de + h2 servicios + jumbotron comunidad +h2 contacto)
+@mixin sombras($text-sh) {
+  text-shadow: $text-sh;
+}
+// --------------------------------------------------------
+// -------------------------------------------------
+// Css general
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  @include sizes(100%, 100%);
+}
+body {
+  font-family: $font-f;
+  @include sizes(100%, 100%);
+}
+// ---------------------------------------------------------------
+// Import del index
+@import "_index";
+// Import de acerca de
+@import "_acerca-de";
+// Import de servicios
+@import "_servicios";
+// Import de comunidad
+@import "_comunidad";
+// Import de contacto
+@import "_contacto";
+// ----------------------------------------------------------------
+// Navbar
+.navbar {
+  @include navBar-style($bg-color1, $width);
+}
+.navbar-collapse {
+  justify-content: end;
+}
+// Import del footer
+@import "_footer";
