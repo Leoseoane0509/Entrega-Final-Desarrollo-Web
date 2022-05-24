@@ -347,6 +347,7 @@ form .btn:hover {
 #certificates .list-group-item a {
   text-decoration: none;
   color: #333;
+  text-align: center;
 }
 
 #certificates .list-group-item a:hover {
