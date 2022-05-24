@@ -365,6 +365,8 @@ form .btn:hover {
 
 .social .redes a {
   display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social .redes li {

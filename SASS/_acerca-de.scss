@@ -135,6 +135,8 @@ $h5: map-get($headings, h5);
   & .redes {
     & a {
       display: table;
+      margin-left: auto;
+      margin-right: auto;
     }
     & li {
       height: 200px;
