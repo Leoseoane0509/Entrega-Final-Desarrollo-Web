@@ -518,6 +518,7 @@ li.linkedin {
   border-bottom: 1px solid #000;
   -webkit-box-shadow: none;
           box-shadow: none;
+  padding: 1rem;
 }
 
 .accordion .accordion-button:not(.collapsed) {

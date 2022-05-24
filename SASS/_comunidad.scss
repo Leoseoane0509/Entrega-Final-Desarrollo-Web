@@ -42,6 +42,7 @@
   & .accordion-item {
     border-bottom: 1px solid $color1;
     box-shadow: none;
+    padding: 1rem;
   }
   & .accordion-button:not(.collapsed) {
     color: $color3;
