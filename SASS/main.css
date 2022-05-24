@@ -684,6 +684,10 @@ li.linkedin {
   text-decoration: none;
 }
 
+.modal-backdrop {
+  z-index: -1;
+}
+
 .navbar {
   background-color: #20b2aa;
   width: 100%;
