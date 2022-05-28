@@ -277,7 +277,12 @@ form .btn:hover {
   background-color: #7d8389;
 }
 
-#skills h2 {
+#skills .cont2 {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#fafafa), color-stop(#e2e2e4), color-stop(#cbcbce), color-stop(#b3b5b9), color-stop(#9c9fa4), color-stop(#898c91), color-stop(#777a7f), color-stop(#65686d), color-stop(#535559), color-stop(#424345), color-stop(#313133), to(#212121));
+  background-image: linear-gradient(to right top, #fafafa, #e2e2e4, #cbcbce, #b3b5b9, #9c9fa4, #898c91, #777a7f, #65686d, #535559, #424345, #313133, #212121);
+}
+
+#skills .cont2 h2 {
   text-shadow: 6px 5px 7px #20b2aa;
   font-size: 1.75em;
 }
