@@ -540,6 +540,14 @@ li.linkedin {
   padding: 1rem;
 }
 
+.accordion .accordion-item .fa-video,
+.accordion .accordion-item .fa-sack-dollar,
+.accordion .accordion-item .fa-computer,
+.accordion .accordion-item .fa-bars-progress,
+.accordion .accordion-item .fa-closed-captioning {
+  margin-right: 1rem;
+}
+
 .accordion .accordion-button:not(.collapsed) {
   color: #fff;
   background-color: #20b2aa;
