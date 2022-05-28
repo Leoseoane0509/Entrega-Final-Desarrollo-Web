@@ -247,7 +247,9 @@ form .btn:hover {
 }
 
 .jumbotron2 {
-  background-color: #212121;
+  background: url("../media/bg-image2.webp") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .jumbotron2 h1 {

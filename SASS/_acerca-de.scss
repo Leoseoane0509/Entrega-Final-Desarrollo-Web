@@ -26,7 +26,9 @@ $h5: map-get($headings, h5);
   background-color: $color1;
 }
 .jumbotron2 {
-  background-color: $bg-color2;
+  background: url("../media/bg-image2.webp") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
   & h1 {
     text-align: center;
     @include sombras(6px 5px 7px $bg-color1);
