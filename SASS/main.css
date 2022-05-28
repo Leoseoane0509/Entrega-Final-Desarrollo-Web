@@ -241,11 +241,6 @@ form .btn:hover {
   padding: 0.5rem;
 }
 
-.carousel-indicators [data-bs-target] {
-  height: 10px;
-  background-color: #000;
-}
-
 .jumbotron2 {
   background: url("../media/bg-image2.webp") no-repeat center;
   background-size: cover;
@@ -258,19 +253,28 @@ form .btn:hover {
   font-size: 2rem;
 }
 
-.carousel-item img {
+.carousel-inner {
+  height: 70vh;
+}
+
+.carousel-inner .carousel-item img {
   opacity: 0.8;
 }
 
-.carousel-item h5 {
+.carousel-inner .carousel-item h5 {
   color: #000;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1em;
 }
 
-.carousel-item p {
+.carousel-inner .carousel-item p {
   color: #000;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  background-color: #000;
 }
 
 #skills {
@@ -339,15 +343,18 @@ form .btn:hover {
 }
 
 #certificates .heading {
-  background-color: #212121;
   color: #fff;
   height: 5rem;
 }
 
-#certificates .heading h3 {
+#certificates .heading .cont3 {
+  background-color: #20b2aa;
+}
+
+#certificates .heading .cont3 h3 {
   font-size: 1.5em;
   padding: 1rem;
-  text-shadow: 4px 4px 2px lightseagreen;
+  margin: 1.5rem;
 }
 
 #certificates .list-group-item {

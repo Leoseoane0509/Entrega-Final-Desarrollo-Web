@@ -21,10 +21,6 @@ $h5: map-get($headings, h5);
 // ACERCA DE
 // Main
 // Jumbotron
-.carousel-indicators [data-bs-target] {
-  height: 10px;
-  background-color: $color1;
-}
 .jumbotron2 {
   background: url("../media/bg-image2.webp") no-repeat center;
   background-size: cover;
@@ -36,19 +32,26 @@ $h5: map-get($headings, h5);
   }
 }
 // Carousel
-.carousel-item {
-  & img {
-    opacity: 0.8;
+.carousel-inner {
+  height: 70vh;
+  .carousel-item {
+    & img {
+      opacity: 0.8;
+    }
+    & h5 {
+      color: $color1;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: $h5;
+    }
+    & p {
+      color: $color1;
+    }
   }
-  & h5 {
-    color: $color1;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: $h5;
-  }
-  & p {
-    color: $color1;
-  }
+}
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  background-color: $color1;
 }
 // Habilidades
 #skills {
@@ -118,13 +121,15 @@ $h5: map-get($headings, h5);
   height: auto;
   width: $width;
   & .heading {
-    background-color: $bg-color2;
     color: $color3;
     height: 5rem;
-    & h3 {
-      font-size: $h3;
-      padding: 1rem;
-      text-shadow: 4px 4px 2px rgba(32, 178, 170, 1);
+    & .cont3 {
+      background-color: $bg-color1;
+      & h3 {
+        font-size: $h3;
+        padding: 1rem;
+        margin: 1.5rem;
+      }
     }
   }
   & .list-group-item {
