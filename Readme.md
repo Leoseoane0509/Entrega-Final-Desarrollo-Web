@@ -1,1 +1,1 @@
-En esta entrega lo que hice fue subir mi sitio web a dos servidores: 000webhost y netlify. Se incluyen los links a ambos servidores, así como el link a github pages.
+Esta es la entrega final del proyecto Coderhouse. En la misma, se verán aplicadas todas las cosas vistas durante la cursada, desde HTML y CSS hasta Bootstrap, grid, flexbox, sass, y los conocimientos aplicados con git,github y la subida al servidor (en este caso usando Netlify). Además, el sitio es completamente responsive (se adapta a todos los dispositivos).
