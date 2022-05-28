@@ -16,6 +16,9 @@ main {
 // Jumbotron
 #jumbotron {
   & .jumbotron {
+    background: url("../media/bg-image.jpeg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
