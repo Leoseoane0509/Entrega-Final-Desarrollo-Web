@@ -35,8 +35,13 @@ $h5: map-get($headings, h5);
 .carousel-inner {
   height: 70vh;
   .carousel-item {
+    height: 100%;
+    position: relative;
     & img {
       opacity: 0.8;
+      position: absolute;
+      height: 100%;
+      object-fit: cover;
     }
     & h5 {
       color: $color1;
