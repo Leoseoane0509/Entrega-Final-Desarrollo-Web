@@ -20,6 +20,9 @@ $h5: map-get($headings, h5);
 // --------------------------------------------------------------------------------------------
 // ACERCA DE
 // Main
+#acercaDe {
+  overflow-x: hidden;
+}
 // Jumbotron
 .jumbotron2 {
   background: url("../media/bg-image2.webp") no-repeat center;
@@ -32,32 +35,35 @@ $h5: map-get($headings, h5);
   }
 }
 // Carousel
-.carousel-inner {
-  height: 70vh;
-  .carousel-item {
-    height: 100%;
-    position: relative;
-    & img {
-      opacity: 0.8;
-      position: absolute;
+#carrousel {
+  .carousel-inner {
+    height: 70vh;
+    .carousel-item {
       height: 100%;
-      object-fit: cover;
-    }
-    & h5 {
-      color: $color1;
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: $h5;
-    }
-    & p {
-      color: $color1;
+      position: relative;
+      & img {
+        opacity: 0.8;
+        position: absolute;
+        height: 100%;
+        object-fit: cover;
+      }
+      & h5 {
+        color: $color1;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: $h5;
+      }
+      & p {
+        color: $color1;
+      }
     }
   }
+  .carousel-indicators [data-bs-target] {
+    height: 10px;
+    background-color: $color1;
+  }
 }
-.carousel-indicators [data-bs-target] {
-  height: 10px;
-  background-color: $color1;
-}
+
 // Habilidades
 #skills {
   background-color: $bg-color4;

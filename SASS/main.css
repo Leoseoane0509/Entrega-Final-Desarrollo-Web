@@ -241,6 +241,10 @@ form .btn:hover {
   padding: 0.5rem;
 }
 
+#acercaDe {
+  overflow-x: hidden;
+}
+
 .jumbotron2 {
   background: url("../media/bg-image2.webp") no-repeat center;
   background-size: cover;
@@ -253,16 +257,16 @@ form .btn:hover {
   font-size: 2rem;
 }
 
-.carousel-inner {
+#carrousel .carousel-inner {
   height: 70vh;
 }
 
-.carousel-inner .carousel-item {
+#carrousel .carousel-inner .carousel-item {
   height: 100%;
   position: relative;
 }
 
-.carousel-inner .carousel-item img {
+#carrousel .carousel-inner .carousel-item img {
   opacity: 0.8;
   position: absolute;
   height: 100%;
@@ -270,18 +274,18 @@ form .btn:hover {
      object-fit: cover;
 }
 
-.carousel-inner .carousel-item h5 {
+#carrousel .carousel-inner .carousel-item h5 {
   color: #000;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1em;
 }
 
-.carousel-inner .carousel-item p {
+#carrousel .carousel-inner .carousel-item p {
   color: #000;
 }
 
-.carousel-indicators [data-bs-target] {
+#carrousel .carousel-indicators [data-bs-target] {
   height: 10px;
   background-color: #000;
 }
