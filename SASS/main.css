@@ -44,7 +44,7 @@ main {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
-  text-shadow: 6px 5px 7px #20b2aa;
+  text-shadow: 6px 5px 7px lightseagreen;
 }
 
 #jumbotron .jumbo-color {
@@ -58,8 +58,8 @@ form .btn {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  color: #20b2aa;
-  background-color: #20b2aa;
+  color: lightseagreen;
+  background-color: lightseagreen;
   color: #fff;
 }
 
@@ -117,7 +117,7 @@ form .btn:hover {
 }
 
 #testimonials h3 {
-  text-shadow: 6px 5px 7px #20b2aa;
+  text-shadow: 6px 5px 7px lightseagreen;
 }
 
 .testimonial {
@@ -249,7 +249,7 @@ form .btn:hover {
 
 .jumbotron2 h1 {
   text-align: center;
-  text-shadow: 6px 5px 7px #20b2aa;
+  text-shadow: 6px 5px 7px lightseagreen;
   font-size: 2rem;
 }
 
@@ -287,7 +287,7 @@ form .btn:hover {
 }
 
 #skills .cont2 h2 {
-  text-shadow: 6px 5px 7px #20b2aa;
+  text-shadow: 6px 5px 7px lightseagreen;
   font-size: 1.75em;
 }
 
@@ -333,7 +333,7 @@ form .btn:hover {
 }
 
 #skills .card .btn {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
 }
 
 #certificates {
@@ -348,7 +348,7 @@ form .btn:hover {
 }
 
 #certificates .heading .cont3 {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
 }
 
 #certificates .heading .cont3 h3 {
@@ -368,13 +368,13 @@ form .btn:hover {
 }
 
 #certificates .list-group-item a:hover {
-  color: #20b2aa;
+  color: lightseagreen;
 }
 
 .social .container h4 {
   text-align: center;
   color: #fff;
-  background-color: #20b2aa;
+  background-color: lightseagreen;
   padding: 1rem;
   margin: 1.5rem;
   font-size: 1.25em;
@@ -424,7 +424,7 @@ li.linkedin {
 
 #services h1 {
   color: #fafafa;
-  text-shadow: 6px 5px 7px #20b2aa;
+  text-shadow: 6px 5px 7px lightseagreen;
 }
 
 #services .card {
@@ -448,7 +448,7 @@ li.linkedin {
 }
 
 #services .card .card-link a {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -514,7 +514,7 @@ li.linkedin {
 
 .jum-color h1 {
   text-align: center;
-  text-shadow: 6px 5px 1px #20b2aa;
+  text-shadow: -5px 1px 5px rgba(32, 178, 170, 0.43);
 }
 
 .jum-color p {
@@ -522,7 +522,7 @@ li.linkedin {
 }
 
 #questions .container h2 {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
   margin: 1.5rem;
   color: #fff;
   -webkit-box-shadow: 12px 12px 2px 1px #0000ff33;
@@ -550,7 +550,7 @@ li.linkedin {
 
 .accordion .accordion-button:not(.collapsed) {
   color: #fff;
-  background-color: #20b2aa;
+  background-color: lightseagreen;
 }
 
 .accordion .item5 {
@@ -558,7 +558,7 @@ li.linkedin {
 }
 
 #resources .encabezado3 {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
   margin: 2rem;
 }
 
@@ -592,7 +592,7 @@ li.linkedin {
 }
 
 #contacto-main h2 {
-  text-shadow: 4px 4px 2px #20b2aa;
+  text-shadow: 4px 4px 2px lightseagreen;
   text-transform: uppercase;
 }
 
@@ -614,7 +614,7 @@ li.linkedin {
 }
 
 .form {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -718,7 +718,7 @@ li.linkedin {
 }
 
 .navbar {
-  background-color: #20b2aa;
+  background-color: lightseagreen;
   width: 100%;
 }
 

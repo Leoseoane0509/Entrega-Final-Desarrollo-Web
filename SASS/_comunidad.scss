@@ -18,7 +18,7 @@
   align-items: center;
   & h1 {
     text-align: center;
-    @include sombras(6px 5px 1px $bg-color1);
+    @include sombras(-5px 1px 5px rgba(32, 178, 170, 0.43));
   }
   & p {
     text-align: center;
