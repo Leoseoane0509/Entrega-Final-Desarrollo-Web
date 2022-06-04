@@ -1,3 +1,5 @@
+// FUENTE
+@import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap");
 // CONTACTO
 // MAIN
 // Formulario de contacto
@@ -22,6 +24,7 @@
   & h2 {
     @include sombras(4px 4px 2px $bg-color1);
     text-transform: uppercase;
+    font-family: "Tai Heritage Pro", serif;
   }
   & h1 {
     cursor: pointer;

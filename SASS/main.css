@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -607,6 +608,7 @@ li.linkedin {
 #contacto-main h2 {
   text-shadow: 4px 4px 2px lightseagreen;
   text-transform: uppercase;
+  font-family: "Tai Heritage Pro", serif;
 }
 
 #contacto-main h1 {

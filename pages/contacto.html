@@ -71,7 +71,7 @@
     </article>
     <div class="container p-3">
       <h2 class="text-center" data-aos="flip-up">¡Charlemos!</h2>
-      <form action="contacto.html" class="form" data-aos="flip-left" method="post" netlify>
+      <form action="../PHP/contact.php" class="form" data-aos="flip-left" method="POST">
         <div class="row p-3">
           <!-- Nombre -->
           <div class="col-md-6 mt-2">
@@ -81,7 +81,7 @@
           <!-- Apellido -->
           <div class="col-md-6 mt-2">
             <label for="lastName" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="lastName" required placeholder="Pérez">
+            <input type="text" class="form-control" id="lastName" required placeholder="Pérez" name="apellido">
           </div>
         </div>
         <!-- Correo electrónico -->
@@ -90,21 +90,22 @@
             <label for="emailInfo" class="form-label">
               Correo electrónico
             </label>
-            <input type="email" class="form-control" id="emailInfo" required placeholder="Juanpérez123@gmail.com">
+            <input type="email" class="form-control" id="emailInfo" required placeholder="Juanpérez123@gmail.com"
+              name="correo">
           </div>
           <!-- Número de teléfono -->
           <div class="col-md-6 mt-2">
             <label for="phoneNumber" class="form-label">
               Número de teléfono
             </label>
-            <input type="text" class="form-control" id="phoneNumber" placeholder="+54 (011) 1234-5678">
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+54 (011) 1234-5678" name="telefono">
           </div>
         </div>
         <!-- Servicios --opciones -->
         <div class="row p-3 ">
           <div class="col-md-6 mt-2">
             <label for="servicesOptions" class="form-label">Servicio</label>
-            <select class="form-select">
+            <select class="form-select" name="servicios">
               <option>Traducciones</option>
               <option>Clases de inglés</option>
               <option>Clases de español</option>
@@ -118,14 +119,14 @@
             <label for="countryOrigin" class="form-label">
               País de residencia
             </label>
-            <input type="text" class="form-control" id="countryOrigin" placeholder="Argentina" required>
+            <input type="text" class="form-control" id="countryOrigin" placeholder="Argentina" required name="pais">
           </div>
         </div>
         <!-- Comentarios -->
         <div class="row p-3">
           <div class="col-md-6">
             <label for="comments" class="form-label">¿Preguntas?</label>
-            <textarea class="form-control" id="comments" rows="3"></textarea>
+            <textarea class="form-control" id="comments" rows="3" name="comentarios"></textarea>
           </div>
           <!-- Recordarme -->
           <div class="cont col-md-6">
@@ -137,7 +138,7 @@
             <!-- Submit -->
             <div class=" mt-2 d-flex flex-column justify-content-center align-items-center">
               <!-- Botón que dispara la ventana modal -->
-              <button type="submit" class="btn btn-grad" data-bs-toggle="modal" data-bs-target="#miModal"
+              <button type="submit" value="enviar" class="btn btn-grad" data-bs-toggle="modal" data-bs-target="#miModal"
                 aria-label="Botón que dispara la ventana modal">
                 Enviar
               </button>
