@@ -4,8 +4,12 @@
 #services {
   background-color: $bg-color4;
   & h1 {
-    color: $bg-color3;
-    @include sombras(6px 5px 7px $bg-color1);
+    color: $color1;
+    background-color: #ebebeb;
+    padding: 20px;
+    box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+    -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+    -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   }
   & .card {
     padding: 1rem;

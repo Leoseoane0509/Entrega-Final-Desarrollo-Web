@@ -437,8 +437,12 @@ li.linkedin {
 }
 
 #services h1 {
-  color: #fafafa;
-  text-shadow: 6px 5px 7px lightseagreen;
+  color: #000;
+  background-color: #ebebeb;
+  padding: 20px;
+  box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
 }
 
 #services .card {
