@@ -606,7 +606,7 @@ li.linkedin {
 }
 
 #contacto-main h2 {
-  text-shadow: 4px 4px 2px lightseagreen;
+  text-shadow: 4px 4px 0px rgba(0, 0, 255, 0.2);
   text-transform: uppercase;
   font-family: "Tai Heritage Pro", serif;
 }
