@@ -657,6 +657,10 @@ li.linkedin {
   line-height: 2rem;
 }
 
+#contacto-main .fa-address-card {
+  margin-left: 0.5rem;
+}
+
 .form {
   background-color: lightseagreen;
   border-radius: 1rem;
