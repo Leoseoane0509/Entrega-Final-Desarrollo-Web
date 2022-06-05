@@ -603,6 +603,7 @@ li.linkedin {
 #resources .encabezado3 {
   background-color: lightseagreen;
   margin: 2rem;
+  text-transform: uppercase;
 }
 
 #resources p {

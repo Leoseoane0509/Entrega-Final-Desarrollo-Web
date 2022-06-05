@@ -65,6 +65,7 @@
     background-color: $bg-color1;
     @extend %encabezadoYparrafo;
     margin: 2rem;
+    text-transform: uppercase;
   }
   & p {
     @extend %encabezadoYparrafo;
