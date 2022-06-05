@@ -291,18 +291,20 @@ form .btn:hover {
   background-color: #000;
 }
 
-#skills {
-  background-color: #7d8389;
-}
-
 #skills .cont2 {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#fafafa), color-stop(#e2e2e4), color-stop(#cbcbce), color-stop(#b3b5b9), color-stop(#9c9fa4), color-stop(#898c91), color-stop(#777a7f), color-stop(#65686d), color-stop(#535559), color-stop(#424345), color-stop(#313133), to(#212121));
-  background-image: linear-gradient(to right top, #fafafa, #e2e2e4, #cbcbce, #b3b5b9, #9c9fa4, #898c91, #777a7f, #65686d, #535559, #424345, #313133, #212121);
+  background-color: lightseagreen;
+  box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #skills .cont2 h2 {
   text-shadow: 6px 5px 7px lightseagreen;
   font-size: 1.75em;
+  color: #fff;
 }
 
 #skills .card {
@@ -363,6 +365,9 @@ form .btn:hover {
 
 #certificates .heading .cont3 {
   background-color: lightseagreen;
+  box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
 }
 
 #certificates .heading .cont3 h3 {
@@ -385,13 +390,21 @@ form .btn:hover {
   color: lightseagreen;
 }
 
-.social .container h4 {
+.social .media {
+  box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  background-color: lightseagreen;
+}
+
+.social .media h4 {
   text-align: center;
   color: #fff;
   background-color: lightseagreen;
   padding: 1rem;
   margin: 1.5rem;
   font-size: 1.25em;
+  text-transform: uppercase;
 }
 
 .social .redes a {
