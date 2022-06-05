@@ -307,6 +307,10 @@ form .btn:hover {
   color: #fff;
 }
 
+#skills .cont2 .fa-magnifying-glass {
+  margin-left: 0.5rem;
+}
+
 #skills .card {
   padding: 1rem;
   margin: 1rem auto;
@@ -370,10 +374,14 @@ form .btn:hover {
   -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
 }
 
-#certificates .heading .cont3 h3 {
-  font-size: 1.5em;
+#certificates .heading .cont3 h2 {
+  font-size: 1.75em;
   padding: 1rem;
   margin: 1.5rem;
+}
+
+#certificates .heading .cont3 .fa-certificate {
+  margin-left: 0.5rem;
 }
 
 #certificates .list-group-item {
@@ -397,14 +405,18 @@ form .btn:hover {
   background-color: lightseagreen;
 }
 
-.social .media h4 {
+.social .media h2 {
   text-align: center;
   color: #fff;
   background-color: lightseagreen;
   padding: 1rem;
   margin: 1.5rem;
-  font-size: 1.25em;
+  font-size: 1.75em;
   text-transform: uppercase;
+}
+
+.social .media .fa-thumbs-up {
+  margin-left: 0.5rem;
 }
 
 .social .redes a {

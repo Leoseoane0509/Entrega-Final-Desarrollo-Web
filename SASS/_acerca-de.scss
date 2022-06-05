@@ -1,21 +1,15 @@
 // MAPAS
 // Estos mapas los voy a estar aplicando en los distintos headers (según su jerarquía) que aparecen en la página "acerca de"
 $headings: (
-  // Línea 29
+  // Línea 28
   h1: 2rem,
-  // Línea 55
+  // Líneas 73,129,160
   h2: 1.75em,
-  // Línea 103
-  h3: 1.5em,
-  // Linea 122
-  h4: 1.25em,
-  // Línea 38
+  // Línea 48
   h5: 1em
 );
 $h1: map-get($headings, h1);
 $h2: map-get($headings, h2);
-$h3: map-get($headings, h3);
-$h4: map-get($headings, h4);
 $h5: map-get($headings, h5);
 // --------------------------------------------------------------------------------------------
 // ACERCA DE
@@ -79,6 +73,9 @@ $h5: map-get($headings, h5);
       font-size: $h2;
       color: $color3;
     }
+    & .fa-magnifying-glass {
+      margin-left: 0.5rem;
+    }
   }
   & .card {
     padding: 1rem;
@@ -131,10 +128,13 @@ $h5: map-get($headings, h5);
       box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
       -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
       -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
-      & h3 {
-        font-size: $h3;
+      & h2 {
+        font-size: $h2;
         padding: 1rem;
         margin: 1.5rem;
+      }
+      & .fa-certificate {
+        margin-left: 0.5rem;
       }
     }
   }
@@ -157,14 +157,17 @@ $h5: map-get($headings, h5);
     -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
     -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
     background-color: $bg-color1;
-    & h4 {
+    & h2 {
       text-align: center;
       color: $color3;
       background-color: $bg-color1;
       padding: 1rem;
       margin: 1.5rem;
-      font-size: $h4;
+      font-size: $h2;
       text-transform: uppercase;
+    }
+    & .fa-thumbs-up {
+      margin-left: 0.5rem;
     }
   }
   & .redes {
