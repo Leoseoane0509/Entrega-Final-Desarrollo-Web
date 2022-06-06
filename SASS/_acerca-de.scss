@@ -19,19 +19,31 @@ $h5: map-get($headings, h5);
 }
 // Jumbotron
 .jumbotron2 {
-  background: url("../media/bg-image2.webp") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  & h1 {
-    text-align: center;
-    @include sombras(6px 5px 7px $bg-color1);
-    font-size: $h1;
+  height: 15rem;
+  & .cont0 {
+    background-color: $bg-color1;
+    box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+    -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+    -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+    & h2 {
+      text-align: center;
+      @include sombras(6px 5px 7px $bg-color1);
+      font-size: $h2;
+      color: $color3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    & .fa-leanpub {
+      margin-left: 0.5rem;
+    }
   }
 }
 // Carousel
 #carrousel {
   .carousel-inner {
-    height: 70vh;
+    height: 35rem;
     .carousel-item {
       height: 100%;
       position: relative;

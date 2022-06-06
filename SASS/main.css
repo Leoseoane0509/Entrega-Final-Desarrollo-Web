@@ -45,7 +45,7 @@ main {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #1fb2aa;
 }
 
 #jumbotron .jumbo-color {
@@ -59,8 +59,8 @@ form .btn {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  color: lightseagreen;
-  background-color: lightseagreen;
+  color: #1fb2aa;
+  background-color: #1fb2aa;
   color: #fff;
 }
 
@@ -118,7 +118,7 @@ form .btn:hover {
 }
 
 #testimonials h3 {
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #1fb2aa;
 }
 
 .testimonial {
@@ -247,19 +247,40 @@ form .btn:hover {
 }
 
 .jumbotron2 {
-  background: url("../media/bg-image2.webp") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
+  height: 15rem;
 }
 
-.jumbotron2 h1 {
+.jumbotron2 .cont0 {
+  background-color: #1fb2aa;
+  box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+  -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
+}
+
+.jumbotron2 .cont0 h2 {
   text-align: center;
-  text-shadow: 6px 5px 7px lightseagreen;
-  font-size: 2rem;
+  text-shadow: 6px 5px 7px #1fb2aa;
+  font-size: 1.75em;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.jumbotron2 .cont0 .fa-leanpub {
+  margin-left: 0.5rem;
 }
 
 #carrousel .carousel-inner {
-  height: 70vh;
+  height: 35rem;
 }
 
 #carrousel .carousel-inner .carousel-item {
@@ -292,7 +313,7 @@ form .btn:hover {
 }
 
 #skills .cont2 {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
@@ -302,7 +323,7 @@ form .btn:hover {
 }
 
 #skills .cont2 h2 {
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #1fb2aa;
   font-size: 1.75em;
   color: #fff;
 }
@@ -353,7 +374,7 @@ form .btn:hover {
 }
 
 #skills .card .btn {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
 }
 
 #certificates {
@@ -368,7 +389,7 @@ form .btn:hover {
 }
 
 #certificates .heading .cont3 {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
@@ -395,20 +416,20 @@ form .btn:hover {
 }
 
 #certificates .list-group-item a:hover {
-  color: lightseagreen;
+  color: #1fb2aa;
 }
 
 .social .media {
   box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   -webkit-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
   -moz-box-shadow: 10px 18px 5px 0px rgba(0, 0, 255, 0.19);
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
 }
 
 .social .media h2 {
   text-align: center;
   color: #fff;
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   padding: 1rem;
   margin: 1.5rem;
   font-size: 1.75em;
@@ -491,7 +512,7 @@ li.linkedin {
 }
 
 #services .card .card-link a {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -565,7 +586,7 @@ li.linkedin {
 }
 
 #questions .container h2 {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   margin: 1.5rem;
   color: #fff;
   -webkit-box-shadow: 12px 12px 2px 1px #0000ff33;
@@ -593,7 +614,7 @@ li.linkedin {
 
 .accordion .accordion-button:not(.collapsed) {
   color: #fff;
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
 }
 
 .accordion .item5 {
@@ -601,7 +622,7 @@ li.linkedin {
 }
 
 #resources .encabezado3 {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   margin: 2rem;
   text-transform: uppercase;
 }
@@ -663,7 +684,7 @@ li.linkedin {
 }
 
 .form {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -767,7 +788,7 @@ li.linkedin {
 }
 
 .navbar {
-  background-color: lightseagreen;
+  background-color: #1fb2aa;
   width: 100%;
 }
 
