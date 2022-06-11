@@ -150,15 +150,18 @@ $h5: map-get($headings, h5);
       }
     }
   }
-  & .list-group-item {
-    background-color: $bg-color3;
-    & a {
-      text-decoration: none;
-      color: $color2;
-      text-align: center;
-    }
-    & a:hover {
-      color: $bg-color1;
+  & #list-group {
+    margin-top: 3rem;
+    & .list-group-item {
+      background-color: $bg-color3;
+      & a {
+        text-decoration: none;
+        color: $color2;
+        text-align: center;
+      }
+      & a:hover {
+        color: $bg-color1;
+      }
     }
   }
 }

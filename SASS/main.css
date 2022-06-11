@@ -405,17 +405,21 @@ form .btn:hover {
   margin-left: 0.5rem;
 }
 
-#certificates .list-group-item {
+#certificates #list-group {
+  margin-top: 3rem;
+}
+
+#certificates #list-group .list-group-item {
   background-color: #fafafa;
 }
 
-#certificates .list-group-item a {
+#certificates #list-group .list-group-item a {
   text-decoration: none;
   color: #333;
   text-align: center;
 }
 
-#certificates .list-group-item a:hover {
+#certificates #list-group .list-group-item a:hover {
   color: #1fb2aa;
 }
 
